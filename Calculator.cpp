@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// declaration
 void showMenu();
 void arithmetic();
 void trignometric();
@@ -51,6 +52,7 @@ int main(){
 	return 0;
 }
 
+// choose the operation you want
 void showMenu(){
 	
 	cout << "Calculator\n\n";
@@ -61,7 +63,7 @@ void showMenu(){
 	
 }
 
-
+// + & - & * & /
 void arithmetic() {
 	
 	int operation = 0;
@@ -97,6 +99,7 @@ void arithmetic() {
 	
 }
 
+// sine & cosine
 void trignometric() {
 	
 	int operation = 0;
@@ -124,6 +127,7 @@ void trignometric() {
 	
 }
 
+// power
 void exponential() {
 	
 	float A = 0.0;
@@ -140,6 +144,7 @@ void exponential() {
 	
 }
 
+// logarithm
 void logarithmic() {
 	
 	float number = 0.0;
